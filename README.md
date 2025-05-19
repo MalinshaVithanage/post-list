@@ -1,4 +1,4 @@
-# post-list
+# Post List
 
 # Tech Stack:
 • Angular
