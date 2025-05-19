@@ -1,0 +1,123 @@
+.detail-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+
+  .comment {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .comment-name {
+      font-weight: bold;
+      color: #333;
+      white-space: nowrap;
+    }
+
+    .comment-title {
+      color: #370d38;
+      font-weight: bold;
+      font-size: 16px;
+      margin: 10px 0;
+      text-transform: capitalize;
+    }
+    .comment-body {
+      font-size: 14px;
+      color: #313131;
+      text-align: justify;
+    }
+  }
+
+  .post-title {
+    color: #370d38;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px 0;
+    text-transform: capitalize;
+  }
+  .post-meta {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 12px;
+  }
+  .post-body {
+    font-size: 14px;
+    color: #313131;
+    margin: 8px 0;
+    text-align: justify;
+  }
+
+  .post-tags {
+    margin-top: auto;
+  }
+
+  .tag {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #333;
+    font-size: 13px;
+    padding: 4px 8px;
+    margin-right: 6px;
+    border-radius: 4px;
+  }
+}
+
+.post-content,
+.comments {
+  flex: 1 1 100%;
+  border: 2px solid #fccbfd;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f9f3f9;
+}
+
+@media (min-width: 2500px) {
+  .detail-container {
+    .post-title {
+      font-size: 30px;
+    }
+    .post-meta {
+      font-size: 20px;
+    }
+    .post-body {
+      font-size: 22px;
+    }
+    .tag {
+      font-size: 20px;
+    }
+  }
+  .post-content,
+  .comments {
+    flex: 1 1 45%;
+    border: 2px solid #fccbfd;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f3f9;
+  }
+}
+
+@media (min-width: 1024px) {
+  .detail-container {
+    .post-title {
+      font-size: 30px;
+    }
+    .post-meta {
+      font-size: 20px;
+    }
+    .post-body {
+      font-size: 20px;
+    }
+    .tag {
+      font-size: 20px;
+    }
+  }
+  .post-content,
+  .comments {
+    flex: 1 1 45%;
+    border: 2px solid #fccbfd;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f3f9;
+  }
+}

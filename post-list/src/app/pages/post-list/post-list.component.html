@@ -1,0 +1,16 @@
+<div class="grid-container">
+  <div *ngFor="let post of posts" class="card" (click)="viewPost(post.id)">
+    <h3 class="post-title">{{ post.title }}</h3>
+    <p class="post-body">{{ post.body | slice:0:200 }}...</p>
+
+    <div class="post-tags">
+    <span *ngFor="let tag of post.tags" class="tag">{{ tag }}</span>
+  </div>
+
+
+  </div>
+</div>
+<div class="load-more-wrapper">
+  <button *ngIf="hasMore" class="load-more" (click)="loadMore()">Load More</button>
+</div>
+
