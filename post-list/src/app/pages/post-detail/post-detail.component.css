@@ -1,0 +1,16 @@
+.detail-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.post-content, .comments {
+  flex: 1 1 100%;
+}
+
+@media (min-width: 1024px) {
+  .post-content, .comments {
+    flex: 1 1 45%;
+  }
+}

@@ -1,1 +1,7 @@
-<p>post-list works!</p>
+<div class="grid-container">
+  <div *ngFor="let post of posts" class="card" (click)="viewPost(post.id)">
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.body | slice:0:100 }}...</p>
+  </div>
+</div>
+<button *ngIf="hasMore" (click)="loadMore()">Load More</button>

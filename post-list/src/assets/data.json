@@ -1,0 +1,38 @@
+{
+  "posts": [
+    { "id": 1, "title": "Post 1", "body": "Sports teach discipline, teamwork, and resilience. Win or lose, every match leaves a lesson. That’s why sports matter beyond just the game.", "userId": 1,"tags":["sports", "discipline", "teamwork"], "createdAt": "2023-10-01T12:00:00Z" },
+    { "id": 2, "title": "Post 2", "body": "The beauty of nature is a reminder of the world’s wonders. From mountains to oceans, every landscape tells a story. Nature inspires us to appreciate life.", "userId": 2,"tags":["nature", "beauty", "inspiration"], "createdAt": "2023-10-02T12:00:00Z" },
+    { "id": 3, "title": "Post 3", "body": "Technology shapes our future. It connects us, informs us, and transforms our lives. Embracing innovation is key to progress.", "userId": 3,"tags":["technology", "innovation", "future"], "createdAt": "2023-10-03T12:00:00Z" },
+    { "id": 4, "title": "Post 4", "body": "Art reflects culture and emotion. It challenges perceptions and evokes feelings. Through art, we understand ourselves and the world.", "userId": 4,"tags":["art", "culture", "emotion"],"createdAt":"2023-10-04T12:00:00Z"},
+    { "id": 5, "title":"Post 5", "body":"Education empowers individuals and societies. Knowledge is a tool for change. Investing in education is investing in a better future.", "userId":5, "tags":["education", "empowerment", "future"], "createdAt":"2023-10-05T12:00:00Z"},
+    { "id": 6, "title": "Post 6", "body": "Travel broadens horizons. It exposes us to different cultures and ideas. Every journey is an opportunity for growth.", "userId": 6,"tags":["travel", "culture", "growth"],"createdAt":"2023-10-06T12:00:00Z"},
+    { "id": 7, "title": "Post 7", "body": "Health is wealth. Physical and mental well-being are essential for a fulfilling life. Prioritizing health leads to happiness.", "userId": 7,"tags":["health", "well-being", "happiness"],"createdAt":"2023-10-07T12:00:00Z"},
+    { "id": 8, "title": "Post 8", "body": "History teaches us valuable lessons. Understanding the past helps us navigate the present and shape the future.", "userId": 8,"tags":["history", "lessons", "future"],"createdAt":"2023-10-08T12:00:00Z"},
+    { "id": 9, "title": "Post 9", "body": "Music transcends boundaries. It unites people and expresses emotions that words cannot. The power of music is undeniable.", "userId": 9,"tags":["music", "unity", "emotion"],"createdAt":"2023-10-09T12:00:00Z"},
+    { "id": 10, "title": "Post 10", "body": "Science drives discovery. It challenges our understanding and pushes the limits of knowledge. Curiosity fuels scientific progress.", "userId": 10,"tags":["science", "discovery", "knowledge"],"createdAt":"2023-10-10T12:00:00Z"},
+    { "id": 11, "title": "Post 11", "body": "Literature opens windows to different worlds. It fosters empathy and understanding through storytelling. Reading enriches the mind.", "userId": 11,"tags":["literature", "empathy", "storytelling"],"createdAt":"2023-10-11T12:00:00Z"},
+    { "id": 12, "title": "Post 12", "body": "Philosophy challenges our beliefs. It encourages critical thinking and self-reflection. Engaging with philosophical ideas is essential for personal growth.", "userId": 12,"tags":["philosophy", "critical thinking", "growth"],"createdAt":"2023-10-12T12:00:00Z"},
+    { "id": 13, "title": "Post 13", "body": "Fashion is a form of self-expression. It reflects culture and individuality. Embracing personal style is empowering.", "userId": 13,"tags":["fashion", "self-expression", "culture"],"createdAt":"2023-10-13T12:00:00Z"},
+    { "id": 14, "title": "Post 14", "body": "Cooking is an art and a science. It brings people together and nourishes the body and soul. Sharing meals creates lasting memories.", "userId": 14,"tags":["cooking", "art", "community"],"createdAt":"2023-10-14T12:00:00Z"},
+    { "id": 15, "title": "Post 15", "body": "Sports foster community and camaraderie. They teach teamwork and perseverance. Engaging in sports promotes physical and mental health.", "userId": 15,"tags":["sports", "community", "health"],"createdAt":"2023-10-15T12:00:00Z"},
+    { "id": 16, "title": "Post 16", "body": "Gardening connects us to nature. It promotes sustainability and mindfulness. Cultivating plants nurtures both the earth and the soul.", "userId": 16,"tags":["gardening", "nature", "sustainability"],"createdAt":"2023-10-16T12:00:00Z"},
+    { "id": 17, "title": "Post 17", "body": "Photography captures moments in time. It tells stories and preserves memories. Through the lens, we see the world differently.", "userId": 17,"tags":["photography", "storytelling", "memories"],"createdAt":"2023-10-17T12:00:00Z"},
+    { "id": 18, "title": "Post 18", "body": "Writing is a powerful tool for communication. It expresses thoughts and emotions. Through writing, we connect with others.", "userId": 18,"tags":["writing", "communication", "connection"],"createdAt":"2023-10-18T12:00:00Z"},
+    { "id": 19, "title": "Post 19", "body": "Volunteering enriches lives. It fosters community and compassion. Giving back creates a positive impact on society.", "userId": 19,"tags":["volunteering", "community", "compassion"],"createdAt":"2023-10-19T12:00:00Z"},
+    { "id": 20, "title": "Post 20", "body": "Mindfulness promotes mental well-being. It encourages self-awareness and presence. Practicing mindfulness leads to a more fulfilling life.", "userId": 20,"tags":["mindfulness", "well-being", "self-awareness"],"createdAt":"2023-10-20T12:00:00Z"}
+  ],
+  "comments": [
+    { "id": 1, "postId": 1, "name":"Jane","email": "abc@xyz.com", "body": "Great post!" },
+    { "id": 2, "postId": 1, "name":"John","email": "bcd@xyz.com", "body": "Thanks for sharing!" },
+    { "id": 3, "postId": 2, "name":"Doe","email": "bc@xyz.com", "body": "Very informative." },
+    { "id": 4, "postId": 2, "name":"Smith","email": "cd@xyz.com", "body": "I learned a lot." },
+    { "id": 5, "postId": 5, "name":"Alice","email": "abc@yz.com", "body": "Interesting perspective." },
+    { "id": 6, "postId": 4, "name":"Bob","email": "abc@xz.com", "body": "I disagree with some points." },
+    { "id": 7, "postId": 7, "name":"Charlie","email": "abc@xy.com" , "body": "Well written!" },
+    { "id": 8, "postId": 6, "name":"Dave","email": "ac@xyz.com", "body": "I have a different opinion." },
+    { "id": 9, "postId": 8, "name":"Eve","email": "ac@yz.com", "body": "This is a great read." },
+    { "id": 10, "postId": 9, "name":"Frank","email": "ac@z.com", "body": "I found this very helpful." },
+    { "id": 11, "postId": 10, "name":"Grace","email": "ac@xy.com", "body": "I appreciate the insights." },
+    { "id": 12, "postId": 11, "name":"Heidi","email": "abc@xy.com", "body": "This is a thought-provoking article." }
+    ]
+}
